@@ -1,0 +1,19 @@
+# Compiled C/C++ files
+*.exe
+*.obj
+*.o
+
+# Debug/build files
+*.pdb
+*.ilk
+
+# Visual Studio build folders
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+
+# VS Code settings
+.vscode/
