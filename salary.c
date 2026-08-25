@@ -1,3 +1,4 @@
+//PROGRAM TO FIND THE GROSS SALARY
 #include <stdio.h>
 int main(){
     float salary, gross;
@@ -6,5 +7,4 @@ int main(){
     gross = (salary*0.4)+(salary*0.2);
     printf("your gross salary is: %f", gross);
     return 0;
-
 }
