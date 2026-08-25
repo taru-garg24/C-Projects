@@ -1,3 +1,4 @@
+//PROGRAM TO INPUT THE MARKS SCORED IN 5 SUBJECTS AND FIND THEIR TOTAL AND AVERAGE.
 #include <stdio.h>
 int main(){
     int marks1, marks2, marks3, marks4, marks5;
