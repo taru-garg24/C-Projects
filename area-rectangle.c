@@ -1,3 +1,4 @@
+//PROGRAM TO INPUT DIMENSIONS OF A RECTANGLE AND CALCULATE ITS AREA
 #include <stdio.h>
 int main(){
     int area, peri, length, breadth;
