@@ -1,3 +1,4 @@
+//PROGRAM TO INPUT THE RADIUS OF A CIRCLE AND CALCULATE ITS AREA AND PERIMETER
 #include <stdio.h>
 int main(){
     float radius, area, peri;

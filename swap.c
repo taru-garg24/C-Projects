@@ -1,3 +1,4 @@
+//PROGRAM TO INPUT TWO NUMBERS AND SWAP THEIR VALUES WITHOUT ANY THIRD VARIABLE
 #include <stdio.h>
 int main(){
     int x,y;
@@ -10,4 +11,5 @@ int main(){
     x=x-y;
     printf("after swapping number 1: %d\n",x);
     printf("after swapping number 2: %d\n",y);
+    return 0;
 }
