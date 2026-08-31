@@ -1,11 +1,11 @@
 //menu-driven program to input two numbers and perform operations on them
 #include <stdio.h>
-int main(){
-    float a,b, res; int choice;
-    printf("enter two numbers: ");
-    scanf("%f %f", &a, &b);
-    printf("\nChoose an operation to perform:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
-    scanf("%d", &choice);
+
+// Global variables - accessible by all functions
+float a, b, res;
+int choice;
+
+int calc(){
     if (choice==1){
         res=a+b;
         printf("Result of addition: %f\n", res);
@@ -25,5 +25,14 @@ int main(){
     else{
         printf("Invalid choice\n");
     }
+    return 0;
+}
+
+int main(){
+    printf("enter two numbers: ");
+    scanf("%f %f", &a, &b);
+    printf("\nChoose an operation to perform:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
+    scanf("%d", &choice);
+    calc();
     return 0;
 }
